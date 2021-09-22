@@ -1,0 +1,27 @@
+$lightBlue: #87c5ec;
+@font-face {
+    font-family: "montserratRegular";
+    src: url("../fonts/Montserrat-Regular.ttf");
+  }
+  @font-face {
+    font-family: "montserratBold";
+    src: url("../fonts/Montserrat-Bold.ttf");
+  }
+footer {
+  background: $lightBlue;
+  width: 100%;
+  display: flex;
+  padding: 0 170px 0 229px;
+  justify-content: space-between;
+  color: white;
+  font-family: montserratRegular;
+  font-size: 12px;
+  min-width: 1100px;
+  .socialMedia {
+    display: flex;
+    align-items: center;
+    img{
+        margin-left: 20px;
+    }
+  }
+}

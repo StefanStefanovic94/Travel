@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "montserratRegular";
+  src: url("../fonts/Montserrat-Regular.ttf"); }
+@font-face {
+  font-family: "montserratBold";
+  src: url("../fonts/Montserrat-Bold.ttf"); }
+.summary {
+  display: flex;
+  background-color: #4a79bc;
+  width: 100%;
+  min-width: 1500px;
+  color: white;
+  padding-top: 40px; }
+  .summary .secondDivSum {
+    display: flex; }
+    .summary .secondDivSum div {
+      width: 220px; }
+  .summary h2 {
+    font-family: montserratBold; }
+  .summary h4 {
+    font-family: montserratBold; }
+  .summary h5 {
+    font-family: montserratRegular; }
+  .summary .firstDivSum {
+    padding-left: 229px;
+    margin-right: 30px; }
+
+/*# sourceMappingURL=styleSummary.css.map */

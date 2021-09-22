@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "montserratRegular";
+  src: url("../fonts/Montserrat-Regular.ttf"); }
+@font-face {
+  font-family: "montserratBold";
+  src: url("../fonts/Montserrat-Bold.ttf"); }
+footer {
+  background: #87c5ec;
+  width: 100%;
+  display: flex;
+  padding: 0 170px 0 229px;
+  justify-content: space-between;
+  color: white;
+  font-family: montserratRegular;
+  font-size: 12px;
+  min-width: 1100px; }
+  footer .socialMedia {
+    display: flex;
+    align-items: center; }
+    footer .socialMedia img {
+      margin-left: 20px; }
+
+/*# sourceMappingURL=styleFooter.css.map */

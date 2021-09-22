@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "montserratRegular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "montserratBold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+$lightBlue: #87c5ec;
+$lightBrown: #575756;
+$lightGray: #f7f7f7;
+$yellow: #f7b74f;
+
+figure {
+  width: 100%;
+  min-width: 1500px;
+  min-height: 700px;
+  margin: 0px;
+  background-color: $lightBlue;
+  .title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+    font-family: montserratBold;
+  }
+  .wraperDiv {
+    display: flex;
+    margin-left: 229px;
+    .leftDiv {
+      width: 50%;
+      display: block;
+      z-index: 1;
+      .firstCard {
+        display: flex;
+        background: white;
+        border-radius: 5px;
+        width: 120%;
+        margin-bottom: 30px;
+        .imgDiv {
+          padding: 15px;
+          display: flex;
+          align-items: center;
+        }
+        .textDiv {
+          color: $lightBrown;
+          padding: 15px;
+          h3 {
+            margin: 0px;
+            margin-bottom: 10px;
+            font-family: montserratBold;
+          }
+          h4 {
+            margin: 0px;
+            font-family: montserratRegular;
+          }
+        }
+        .priceDiv {
+          width: 30%;
+          border-left: lightgray dotted 8px;
+          color: $yellow;
+          text-align: center;
+          button {
+            margin-left: 8%;
+            width: 72px;
+            height: 24px;
+            background: $lightBlue;
+            border: none;
+            border-radius: 5px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .secondCard {
+    display: flex;
+    background: white;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 30px;
+    .imgDiv {
+      padding: 15px;
+      display: flex;
+      align-items: center;
+    }
+    .textDiv {
+      color: $lightBrown;
+      padding: 15px;
+      h3 {
+        margin: 0px;
+        margin-bottom: 10px;
+        font-family: montserratBold;
+      }
+      h4 {
+        margin: 0px;
+        font-family: montserratRegular;
+      }
+    }
+    .priceDiv {
+      width: 30%;
+      border-left: $lightGray dotted 7px;
+      color: $yellow;
+      text-align: center;
+      button {
+        margin-left: 8%;
+        width: 72px;
+        height: 24px;
+        background: $lightBlue;
+        border: none;
+        border-radius: 5px;
+        color: white;
+      }
+    }
+  }
+  .touristImage {
+    padding-top: 90px;
+    margin-left: -100px;
+  }
+}

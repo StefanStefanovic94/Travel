@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "montserratRegular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "montserratBold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+$lightGrey: #f7f7f7;
+$blue: #4a79bc;
+$brown: #3c3c3b;
+section {
+  display: flex;
+  padding-top: 130px;
+  padding-bottom: 50px;
+  .exploreDiv {
+    margin-left: 229px;
+    padding-top: 65px;
+    min-width: 300px;
+    button {
+      background-color: $brown;
+      color: white;
+      border-radius: 8%;
+      height: 35px;
+      width: 90px;
+    }
+    h2 {
+      position: absolute;
+      font-size: 50px;
+      margin: 0px;
+      padding: 0px;
+      color: $lightGrey;
+      font-family: montserratRegular;
+    }
+    h3 {
+      z-index: 1;
+      position: relative;
+      font-size: 26px;
+      color: $blue;
+      font-family: montserratBold;
+    }
+  }
+  .imageDiv {
+    display: flex;
+    position: relative;
+    div {
+      margin-left: 20px;
+      position: relative;
+      h5 {
+        position: absolute;
+        bottom: 5px;
+        left: 15px;
+        color: white;
+        font-family: montserratRegular;
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "montserratRegular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "montserratBold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  .wrapDivLeft {
+    position: absolute;
+    top: 205px;
+    left: 229px;
+    width: 30%;
+    button {
+      background-color: none;
+      width: 154px;
+      height: 45px;
+      background: content-box;
+      color: white;
+      font-family: montserratRegular;
+      border: solid 1px white;
+      border-radius: 5%;
+      margin-right: 10px;
+      cursor: pointer;
+      padding: 0px;
+    }
+    h1 {
+      color: white;
+      font-family: montserratBold;
+      font-size: 70px;
+    }
+    p {
+      color: white;
+    }
+  }
+
+  .wallperImg {
+    max-width: 100%;
+    min-width: 1200px;
+    min-height: 700px;
+  }
+  button:hover {
+    background-color: white;
+    color: black;
+  }
+  .ytFrame {
+    position: absolute;
+    left: 412px;
+    top: 278px;
+    z-index: 1;
+  }
+  .ytFrameNotActive {
+    display: none;
+  }
+  .closeIframe {
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    background: white;
+    padding: 3px;
+    cursor: pointer;
+  }
+  .wrapDivRight {
+    position: absolute;
+    display: flex;
+    right: 183px;
+    bottom: 125px;
+    width: 388px;
+    .avatarDiv div {
+      transform: rotate(-90deg);
+      h5 {
+        margin: 0px;
+        padding: 0px;
+      }
+      h3 {
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+    p {
+      width: 50%;
+    }
+  }
+}

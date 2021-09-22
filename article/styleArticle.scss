@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "montserratRegular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "montserratBold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+$blueColor: #4a79bc;
+$lightGrey: #f7f7f7;
+$lightBrown: #3c3c3b;
+$black: #2e2d2c;
+article {
+  position: relative;
+  padding: 229px;
+  padding-top: 70px;
+  .titleArticle {
+    text-align: center;
+    margin-bottom: 85px;
+    color: $black;
+  }
+  .wraperDivArticle {
+    background-color: $blueColor;
+    position: relative;
+    min-width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    color: white;
+    h2 {
+      text-align: center;
+      color: $black;
+    }
+    p {
+      width: 40%;
+    }
+  }
+  .imageDivArticle {
+    position: absolute;
+    top: -40px;
+    display: inline-grid;
+    left: 491px;
+    margin: 0px;
+    padding: 0px;
+    background-color: $lightGrey;
+    border-radius: 5px;
+    .wraperImgCountry {
+      position: relative;
+    }
+    img {
+      margin: 10px;
+    }
+  }
+  .textDivArticle {
+    padding: 20px;
+    h3 h4 p {
+      font-family: montserratRegular;
+      color: $black;
+    }
+    button {
+      background: $lightBrown;
+      color: white;
+      width: 107px;
+      height: 40px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+  }
+  .nameCountry {
+    display: flex;
+    position: absolute;
+    top: 22px;
+    right: 50px;
+  }
+}

@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+  width: 1181px;
+  left: 229px;
+  background: white;
+  z-index: 1;
+}
+
+header .wrapDiv {
+  height: 84px;
+  display: flex;
+  align-items: center;
+  min-width: 76px;
+  cursor: pointer;
+}
+header img {
+  margin: 10px;
+}
+header a {
+  text-decoration: none;
+}
+header div {
+  display: flex;
+}
+header div div {
+  align-items: center;
+}
+header h4 {
+  font-family: montserrat;
+  margin: 10px;
+  color: black;
+}
+
+.wrapDiv:hover {
+  background-color: #f7f7f7;
+}
+
+.notActive {
+  display: none;
+}
+
+.input {
+  display: none;
+}
+
+.leftDiv {
+  display: flex;
+}
+
+.activeInput {
+  width: 60%;
+  height: 35px;
+  background-color: #f7f7f7;
+}
+.activeInput input {
+  width: 90%;
+  background-color: #f7f7f7;
+  border: none;
+}
+
+.closeX {
+  cursor: pointer;
+}
+
+.searchIcon {
+  cursor: pointer;
+}
+
+.ulLanguage {
+  position: absolute;
+  right: 0px;
+  top: 68px;
+  background: white;
+  list-style: none;
+  border-radius: 5%;
+  margin: 0;
+  border: 1px solid #f7f7f7;
+  margin: 0px;
+  padding: 0px;
+}
+.ulLanguage li {
+  cursor: pointer;
+  padding: 10px;
+  margin: 0px;
+}
+
+.notActiveLanguage {
+  display: none;
+}
+
+li:hover {
+  background-color: #f7f7f7;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=styleHeader.css.map */

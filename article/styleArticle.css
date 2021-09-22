@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "montserratRegular";
+  src: url("../fonts/Montserrat-Regular.ttf"); }
+@font-face {
+  font-family: "montserratBold";
+  src: url("../fonts/Montserrat-Bold.ttf"); }
+article {
+  position: relative;
+  padding: 229px;
+  padding-top: 70px; }
+  article .titleArticle {
+    text-align: center;
+    margin-bottom: 85px;
+    color: #2e2d2c; }
+  article .wraperDivArticle {
+    background-color: #4a79bc;
+    position: relative;
+    min-width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    color: white; }
+    article .wraperDivArticle h2 {
+      text-align: center;
+      color: #2e2d2c; }
+    article .wraperDivArticle p {
+      width: 40%; }
+  article .imageDivArticle {
+    position: absolute;
+    top: -40px;
+    display: inline-grid;
+    left: 491px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f7f7f7;
+    border-radius: 5px; }
+    article .imageDivArticle .wraperImgCountry {
+      position: relative; }
+    article .imageDivArticle img {
+      margin: 10px; }
+  article .textDivArticle {
+    padding: 20px; }
+    article .textDivArticle h3 h4 p {
+      font-family: montserratRegular;
+      color: #2e2d2c; }
+    article .textDivArticle button {
+      background: #3c3c3b;
+      color: white;
+      width: 107px;
+      height: 40px;
+      border-radius: 10px;
+      margin-top: 20px; }
+  article .nameCountry {
+    display: flex;
+    position: absolute;
+    top: 22px;
+    right: 50px; }
+    h6{
+      font-size: 30px;
+      margin: 0;
+      pad: 0;
+    }
+
+/*# sourceMappingURL=styleArticle.css.map */

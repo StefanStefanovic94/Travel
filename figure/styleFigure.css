@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "montserratRegular";
+  src: url("../fonts/Montserrat-Regular.ttf"); }
+@font-face {
+  font-family: "montserratBold";
+  src: url("../fonts/Montserrat-Bold.ttf"); }
+figure {
+  width: 100%;
+  min-width: 1500px;
+  min-height: 700px;
+  margin: 0px;
+  background-color: #87c5ec; }
+  figure .title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+    font-family: montserratBold; }
+  figure .wraperDiv {
+    display: flex;
+    margin-left: 229px; }
+    figure .wraperDiv .leftDiv {
+      width: 50%;
+      display: block;
+      z-index: 1; }
+      figure .wraperDiv .leftDiv .firstCard {
+        display: flex;
+        background: white;
+        border-radius: 5px;
+        width: 120%;
+        margin-bottom: 30px; }
+        figure .wraperDiv .leftDiv .firstCard .imgDiv {
+          padding: 15px;
+          display: flex;
+          align-items: center; }
+        figure .wraperDiv .leftDiv .firstCard .textDiv {
+          color: #575756;
+          padding: 15px; }
+          figure .wraperDiv .leftDiv .firstCard .textDiv h3 {
+            margin: 0px;
+            margin-bottom: 10px;
+            font-family: montserratBold; }
+          figure .wraperDiv .leftDiv .firstCard .textDiv h4 {
+            margin: 0px;
+            font-family: montserratRegular; }
+        figure .wraperDiv .leftDiv .firstCard .priceDiv {
+          width: 30%;
+          border-left: lightgray dotted 8px;
+          color: #f7b74f;
+          text-align: center; }
+          figure .wraperDiv .leftDiv .firstCard .priceDiv button {
+            margin-left: 8%;
+            width: 72px;
+            height: 24px;
+            background: #87c5ec;
+            border: none;
+            border-radius: 5px;
+            color: white; }
+  figure .secondCard {
+    display: flex;
+    background: white;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 30px; }
+    figure .secondCard .imgDiv {
+      padding: 15px;
+      display: flex;
+      align-items: center; }
+    figure .secondCard .textDiv {
+      color: #575756;
+      padding: 15px; }
+      figure .secondCard .textDiv h3 {
+        margin: 0px;
+        margin-bottom: 10px;
+        font-family: montserratBold; }
+      figure .secondCard .textDiv h4 {
+        margin: 0px;
+        font-family: montserratRegular; }
+    figure .secondCard .priceDiv {
+      width: 30%;
+      border-left: #f7f7f7 dotted 7px;
+      color: #f7b74f;
+      text-align: center; }
+      figure .secondCard .priceDiv button {
+        margin-left: 8%;
+        width: 72px;
+        height: 24px;
+        background: #87c5ec;
+        border: none;
+        border-radius: 5px;
+        color: white; }
+  figure .touristImage {
+    padding-top: 90px;
+    margin-left: -100px; }
+
+/*# sourceMappingURL=styleFigure.css.map */
